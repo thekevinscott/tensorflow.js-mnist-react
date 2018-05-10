@@ -18,8 +18,8 @@
   },
   "scripts": {
     "watch": "NODE_ENV=development parcel --no-hmr --open index.html ",
-    "build": "NODE_ENV=production parcel build index.html  --no-minify --public-url ./tensorflow.js-mnist-react",
-    "deploy": "gh-pages -d dist"
+    "build": "NODE_ENV=production parcel build index.html --public-url ./",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "~6.23.0",
