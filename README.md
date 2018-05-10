@@ -1,4 +1,6 @@
-A port of the Tensorflow.js MNIST example in React
+A port of the Tensorflow.js MNIST example in React.
+
+A live version of this code is hosted here: https://thekevinscott.github.io/tensorflow.js-mnist-react/
 
 # TensorFlow.js Example: Training MNIST
 
