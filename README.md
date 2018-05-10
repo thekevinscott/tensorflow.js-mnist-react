@@ -1,3 +1,5 @@
+A port of the Tensorflow.js MNIST example in React
+
 # TensorFlow.js Example: Training MNIST
 
 This example shows you how to train MNIST (using the layers API).
